@@ -668,5 +668,8 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 
 # crDroid extra features
 
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # UDFPS
 TARGET_HAS_UDFPS := true
