@@ -671,6 +671,9 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
+# BCR Call Recording
+$(call inherit-product-if-exists, vendor/bcr/bcr.mk)
+
 # DeviceAsWebcam
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
