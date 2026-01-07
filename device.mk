@@ -677,6 +677,9 @@ $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 # DeviceAsWebcam
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
+# Disable artifact path requirements
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 # Google Camera
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
 
