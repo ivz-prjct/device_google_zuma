@@ -674,11 +674,11 @@ TARGET_EXCLUDES_AUDIOFX := true
 # BCR Call Recording
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
-# DeviceAsWebcam
-TARGET_BUILD_DEVICE_AS_WEBCAM := true
-
-# Disable artifact path requirements
-DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+# Allow DeviceAsWebcam to reside in the system partition
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/lib64/libjni_deviceAsWebcam.so \
+    system/priv-app/DeviceAsWebcam/DeviceAsWebcam.apk \
+    system/priv-app/DeviceAsWebcam/lib/arm64/libjni_deviceAsWebcam.so
 
 # Google Camera
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
