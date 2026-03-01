@@ -425,3 +425,6 @@ DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
 
 # ZRAM writeback
 include hardware/google/pixel/mm/device_gki.mk
+
+# Google Camera
+$(call inherit-product-if-exists, vendor/google/camera/config.mk)
