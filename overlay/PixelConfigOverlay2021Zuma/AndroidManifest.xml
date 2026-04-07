@@ -4,8 +4,8 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.google.android.overlay.pixelconfig2019">
+          package="com.google.android.overlay.pixelconfig2021.zuma">
     <overlay android:targetPackage="android"
              android:isStatic="true"
-             android:priority="6" />
+             android:priority="8" />
 </manifest>

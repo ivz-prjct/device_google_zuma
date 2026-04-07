@@ -357,15 +357,15 @@ PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay \
     FrameworkResOverlayProductZuma \
     FrameworkResOverlayVendorZuma \
-    GlanceableHubConfigOverlay \
-    GlanceableHubSettingsConfigOverlay \
+    GlanceableHubConfigOverlayZuma \
+    GlanceableHubSettingsConfigOverlayZuma \
     GlanceableHubSettingsConfigOverlay2022 \
-    GlanceableHubSysuiConfigOverlay \
-    GoogleConfigOverlay \
+    GlanceableHubSysuiConfigOverlayZuma \
+    GoogleConfigOverlayZuma \
     GooglePermissionControllerSafetyCenterOverlay \
-    PixelConfigOverlay2019 \
-    PixelConfigOverlay2021 \
-    PixelConfigOverlayCommon \
+    PixelConfigOverlay2019Zuma \
+    PixelConfigOverlay2021Zuma \
+    PixelConfigOverlayCommonZuma \
     PixelConnectivityOverlay2023 \
     PixelDisplayServiceOverlayProductZuma \
     PixelNfcOverlayCommon \

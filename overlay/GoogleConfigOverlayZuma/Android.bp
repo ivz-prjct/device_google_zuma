@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "GlanceableHubSettingsConfigOverlay",
+    name: "GoogleConfigOverlayZuma",
     product_specific: true,
 }
